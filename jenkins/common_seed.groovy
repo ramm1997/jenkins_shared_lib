@@ -1,4 +1,4 @@
-def baseUrl = "https://github.com/ramm1997"
+def baseUrl = "https://github.com/ramm1997/"
 def repoName = "$reponame"
 def gitRepoUrl= baseUrl + repoName + '.git'
 def jobName = "$reponame"
