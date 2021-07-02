@@ -6,9 +6,9 @@ pipeline {
    environment
     {
         VERSION = "${BUILD_NUMBER}"
-        PROJECT = "${projectName}"
+        PROJECT = "${projectname}"
         IMAGE = "$PROJECT:$VERSION"
-        ECRURL = 'https://336466435446.dkr.ecr.ap-south-1.amazonaws.com/${projectName}'
+        ECRURL = 'https://352318176854.dkr.ecr.ap-south-1.amazonaws.com/${projectname}'
         ECRCRED = 'ecr:ap-south-1:awscredentials'
     }
     stages {
